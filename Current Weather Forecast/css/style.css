@@ -1,0 +1,49 @@
+body{
+  margin:20px;;
+  background: url('https://images.unsplash.com/photo-1491681573337-8a671e4b797e?dpr=1.25&auto=format&fit=crop&w=1199&h=899&q=80&cs=tinysrgb&crop=&bg=');
+  background-size: cover;
+  background-repeat: no repeat;
+  color: #fff;
+}
+h1{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size:2.2em;
+}
+
+p{
+  font-family: 'Poiret One', cursive;
+  font-size: 28px;
+  font-weight:bold;
+}
+
+.container{
+  width: 500px;
+  height: 600px;
+  border-radius: 2%;
+  margin: 0 auto;
+ padding: 2% 10%;
+  background: rgba(0,0,0,0.9);
+}
+
+canvas{
+  display: block;
+  margin: 0 auto;
+  
+}
+.degree{
+  border: 1px solid white;
+  background: none;
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 10px 20px 5px 20px;
+  color: white;
+  font-size: 18px;
+  outline: none;
+  border-radius: 5%;
+}
+.degree:hover{
+  color: black;
+  background: white;
+  border: 1px solid black;
+  
+}

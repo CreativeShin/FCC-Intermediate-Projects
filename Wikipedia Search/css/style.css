@@ -1,0 +1,46 @@
+h1{
+  text-align: center;
+  padding: 5%;
+  font-size: 3em;
+}
+a{
+  color: #000;
+  display: block;
+  margin: 2%;
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+h4{
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 2em;
+  color: #777;
+}
+
+.ui.action.input{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ui.secondary.button{
+  display:block;
+  width: 25%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 5% 0;
+  
+}
+footer{
+  text-align: center;
+  margin: 10% 0 2% 0;
+  color: #ddd;
+}
+
+@media(max-width: 992px){
+  .ui.secondary.button{
+    width:45%;
+  }
+}
+
